@@ -13,7 +13,7 @@ jobs:
   two:
     docker:
       -image: cimg/ruby:3.0.2
-        auth:
+       auth:
           username: mydockerhub-user
           password: $DOCKERHUB_PASSWORD
     steps:
